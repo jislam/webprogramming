@@ -1,0 +1,49 @@
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+	height:75%;
+}
+
+p{
+	color: #3EA99F;
+}
+
+#container {
+	background-color: white;
+	border: 5px green solid;
+	width: 75%;
+	margin:auto;
+}
+
+.datefield {
+	border: 5px purple solid;
+}
+
+.box {
+	border: 5px blue solid;
+	padding: 5px;
+}
+.divider{
+	padding-bottom: 2px;
+}
+
+
+img{
+	height:120px;
+	width:100px;	
+	position: center;
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:2px;
+} 
+
+#header {
+	border: 5px red solid;
+}
+
+#header p {
+	border: 5px orange solid;
+	font-size:18px;
+	font-weight: bold;
+	color: #000000;
+}

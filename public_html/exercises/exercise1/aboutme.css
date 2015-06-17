@@ -1,0 +1,27 @@
+body{
+	background-color: #F8EFCF;
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 12pt;
+	line-height: 1.25em;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+} 
+h1 {
+ 	color: #000000;
+	font: 32px  Georgia, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+ 
+a {
+	color: #db3b5d;
+}
+
+ 
+span{
+	color: #FF0000;
+	font-weight: bold;
+}
