@@ -3,7 +3,7 @@ body{
 	font-family: Arial, Georgia, sans-serif;
 	font-size: 12pt;
 	line-height: 1.25em;
-	background-image: url('./bg.png');
+	background-image: url('./bgn.jpg');
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-top: 2%;
@@ -47,6 +47,7 @@ span{
 
 #leftbar{
 	background-color: #F8EFCF;
+	background-image: url('./bg.png');
 	width:65%; 
 	height: 100%;
 	float: left;
@@ -75,7 +76,7 @@ span{
 	clear: right;
 	width:35%;
 	float: right;
-	background-color: #DEFFBD;
+	background-image: url('./rightbg.jpg');
 }	
 
 #rightbar section{
@@ -119,6 +120,7 @@ span{
 	color:#db3b5d;
 	width:90%;
 	text-align: center;
+	padding-bottom:18px;
 }
 
 #rightbar  table.zebrastrip tr:nth-of-type(odd) {
