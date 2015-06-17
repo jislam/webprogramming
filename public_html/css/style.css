@@ -1,6 +1,6 @@
 body{
 	background-repeat: repeat;
-	font-family: Georgia, Arial, sans-serif;
+	font-family: Arial, Georgia, sans-serif;
 	font-size: 12pt;
 	line-height: 1.25em;
 	background-image: url('../images/bg.png');
@@ -9,7 +9,12 @@ body{
 	margin-top: 2%;
 	margin-bottom: 1%;
 } 
-
+table{
+	margin-left:auto; 
+    margin-right:auto;
+	width: 85%;
+	border: 0;
+}
 h1 {
  	color: #FFFFFF;
 	font: 32px  Georgia, Arial, sans-serif;
@@ -20,7 +25,6 @@ h1 {
  
 a {
 	color: #db3b5d;
-	outline: none;
 }
 
 a:hover {
@@ -43,7 +47,7 @@ span{
 
 #leftbar{
 	background-color: #F8EFCF;
-	width:60%; 
+	width:65%; 
 	height: 100%;
 	float: left;
 }
@@ -64,13 +68,12 @@ span{
 }	
 #leftbar section{
 	
-	
-	padding-bottom:15px;
+	padding-bottom:2px;
 }
 	
 #rightbar{
 	clear: right;
-	width:40%;
+	width:35%;
 	float: right;
 	background-color: #DEFFBD;
 }	
@@ -81,7 +84,7 @@ span{
 }
 
 #rightbar img{
-	 
+	width:100%; 
 	position: center;
 	padding-left:2px;
 	padding-right:2px;
@@ -134,8 +137,9 @@ span{
 }	
 
 
-#footer section{
+#footer p{
 	color: #606366;
 	text-align: center;
-	 padding-top: 20px;
+	 padding-top: 15px;
+	 padding-bottom: 10px;
 }
