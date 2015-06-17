@@ -1,0 +1,92 @@
+body{
+	background-repeat: repeat;
+	font-family: 'Georgia', sans-serif;
+	font-size: 12pt;
+	line-height: 1.25em;
+	background-image: url('images/bg.png');
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+} 
+
+h1 {
+ 	color: #FFFFFF;
+	font: 32px "Georgia", "Arial", verdana, arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+ 
+
+.favoritequote {
+	font-style:italic;
+	font-size:20px;
+	margin-right:20px;
+	padding-left:20px;
+	margin-left:20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	color:#333;
+	text-align: center;
+}
+
+
+#leftbar{
+	background-color: #F8EFCF;
+	width:58%; 
+	height: 100%;
+	float: left;
+	padding-left:5px;
+}
+
+#leftbar h3{
+	
+	font-weight: bold;
+}	
+	
+#rightbar{
+	clear: right;
+	width:41%;
+	float: right;
+	background-color: #DEFFBD;
+}	
+
+#rightbar section{
+	
+	text-align: center;
+}
+
+#rightbar img{
+	height:"5%";
+	width:"10%";
+	position: center;
+} 
+ 
+
+#header{
+	 	background: #db3b5d;
+		height: 5em;
+
+}
+
+#header h1{
+	 padding-top: 20px;
+}
+
+  
+  
+  
+  
+  
+#footer {
+	background : #242424;
+	clear: both;
+}	
+
+
+#footer section{
+	color: #606366;
+	text-align: center;
+	 padding-top: 20px;
+}
