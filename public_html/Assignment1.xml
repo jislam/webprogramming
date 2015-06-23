@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:feature="https://en.wikipedia.org/wiki/Feature#">
+
+<rdf:Description rdf:about="https://schema.org/Person#jyoti-islam">
+
+	<feature:firstName>Jyoti</feature:firstName>
+	<feature:lastName>Islam</feature:lastName>
+	<feature:email>jyoti821@gmail.com</feature:email>
+	<feature:interest rdf:resource="http://semanticweb.org"/>
+	<feature:friend rdf:resource="https://schema.org/Person#shrada-pradhan"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://schema.org/Person#shrada-pradhan">
+
+	<feature:firstName>Shrada</feature:firstName>
+	<feature:lastName>Pradhan</feature:lastName>
+	<feature:email>munupradhan@gmail.com</feature:email>
+	<feature:interest rdf:resource="http://semanticweb.org"/>
+	<feature:friend rdf:resource="https://schema.org/Person#jyoti-islam"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticweb.org">
+  <feature:title>Semantic Web</feature:title>
+  <feature:inventor>Tim Berners-Lee</feature:inventor>
+</rdf:Description>
+
+</rdf:RDF>

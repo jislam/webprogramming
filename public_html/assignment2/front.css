@@ -1,0 +1,19 @@
+body{
+	background-repeat: repeat;
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 12pt;
+	line-height: 1.25em;
+	background-image: url('./bg.jpg');
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 8%;
+	margin-bottom: auto;
+	height: 100%;
+}
+
+h1 {
+ 	color: #FFFFFF;
+	font: 32px  Georgia, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
