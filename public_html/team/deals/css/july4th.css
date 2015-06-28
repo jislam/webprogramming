@@ -1,0 +1,232 @@
+body{
+	
+	font-family:	Georgia, Arial, sans-serif; 
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+/*---------------------------------------------------------------------------------------
+Generic Classes to Identify Coupon Hierarchy, Not Tied to one Coupon Style
+----------------------------------------------------------------------------------------*/
+.mainbar{
+	width: 75%;
+	height:90%;
+}
+
+.ssm_coupon ul.ssm_coupon_ul{
+	margin:0px; padding-top:0px; list-style-position:inside; padding-left:0; line-height:1em;
+}
+
+.ssm_coupon ul.ssm_coupon_ul li{
+	margin:0px;
+}
+
+/*---------------------------------------------------------------------------------------
+End Generic Classes
+----------------------------------------------------------------------------------------*/
+ 
+.coupon_holder{
+	position: relative;
+	width:600px;
+	height:450px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #FFF;
+	border: 3px dashed #0000FF;    border-radius: 20px;
+	line-height: 3em;
+	background-image: url('../images/bg2.jpg');
+	
+}
+.coupon_title{
+	text-shadow: .05em .05em .05em #333333;
+	position: absolute;
+	font-size: 4.5em;
+	line-height: 1em;
+	font-weight: bolder;
+	padding-bottom: 30px;
+	padding-left: 35px;
+	padding-top: 20px;
+	color: #E61937;
+	text-align:center;
+
+}
+
+.divider{
+	position: absolute;
+	top: 20%;
+	background-color: #E61937;
+	width: 100%;
+	border-bottom-style: double;
+	height: 10px;
+}
+
+.layer{
+}
+
+.discount{
+	text-shadow: .05em .05em .05em #000000;
+	position: absolute;
+	top: 20%;
+	left: 32%;
+	font-size: 8em;
+	line-height: 1em;
+	color: #0000FF;
+	padding-top: 20px; 
+}
+
+
+.leftimg{
+	text-shadow: .05em .05em .05em #000000;
+	position: absolute;
+	top: 22%;
+	left: 8%;
+	font-size: 8em;
+	line-height: 1em;
+	color: #0000FF;
+	padding-top: 20px; 
+}
+.rightimg{
+	text-shadow: .05em .05em .05em #000000;
+	position: absolute;
+	top: 22%;
+	left: 75%;
+	font-size: 8em;
+	line-height: 1em;
+	color: #0000FF;
+	padding-top: 20px; 
+}
+
+.discount_border{
+	border: 3px dashed #0000FF;  
+}
+
+.discount_top{
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	font-size: 0.5em;
+	line-height: 1em;
+	padding-top: 20px;
+}
+
+.discount_bottom{
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	font-size: 0.5em;
+	line-height: 1em;
+}
+.discount_right{
+	position: relative;
+	top: 0%;
+	font-size: 0.5em;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+.description{
+	position: relative;
+	padding-top: 37%;
+	padding-left:55px;
+	float:none;
+	font-size: 1.05em;
+	font-style: italic;
+	color: #E61937;
+	font-weight: bold;
+}
+
+.ssm_coupon_ex_1_relative_container{
+	position: relative;
+	width:600px;
+	height:250px;
+	font-size: 16px;
+	background-color:#E61937;
+	font-family: Arial;
+	color: #FFF;
+	border: 3px dashed #000;
+	line-height: 3em;
+}
+
+.ssm_coupon_ex_1_field_1{
+	text-shadow: .05em .05em .05em #333333;
+	position: absolute;
+	top: 3%;
+	left: 5%;
+	font-size: 2.5em;
+	line-height: 1em;
+	font-weight: bolder;
+
+	xline-height: 1em;
+	xheight: 200px;
+	xwidth: 200px;
+	xbackground-color: #FF0;
+}
+
+.ssm_coupon_ex_1_field_2{
+	text-shadow: .05em .05em .05em #333333;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	font-size: 8em;
+	line-height: 1em;
+}
+
+.ssm_coupon_ex_1_field_2A{
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	font-size: 0.5em;
+	line-height: 1em;
+}
+
+.ssm_coupon_ex_1_field_2B{
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	font-size: 0.5em;
+	line-height: 1em;
+}
+
+.ssm_coupon_ex_1_field_3, .ssm_coupon_ex_1_field_3A,.ssm_coupon_ex_1_field_4{
+	left: 48%;
+	width: 44%;	
+}
+
+.ssm_coupon_ex_1_field_3A{
+	position: absolute;
+	top: 35%;
+	font-size: .9em;
+	line-height: 1em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ssm_coupon_ex_1_field_4{
+	position: absolute;
+	top: 43%;
+	font-size: 1.3em;
+	line-height: 1em;
+}
+
+
+.ssm_coupon_ex_1_bar_1{
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	background-color: #FFF;
+	height: 50%;
+	width: 2px;
+}
+
+
+.ssm_coupon_ex_1_field_5{
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	font-size: .9em;
+	line-height: 1em;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	width: 90%;
+}

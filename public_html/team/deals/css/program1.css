@@ -1,0 +1,368 @@
+/* css for layout */
+
+ul.points
+{
+	 margin:10px 0 0 15px; float:left; font-size:16px;
+	 list-style-image: url('./p2.gif');
+	
+}
+.titles{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	text-align: center;
+	letter-spacing: 0.05em;
+} 
+
+.special{
+	color: #4E004E;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.item{
+	color: #db3b5d;
+	font-weight: bold;
+	
+}
+.picture{
+	float: left;
+} 
+
+.clear{
+	clear: both;
+}
+.pic{
+	width:35%; 
+	height:40%;
+	float: left;
+	padding-top:15px;
+}
+
+.bar{
+	float:left; 
+	background-color:#d3e283; 
+	width:29%;
+}
+
+#nav  ul{
+    margin-left: 15px;
+}
+
+#nav  > ul > li{
+    display: inline;
+	
+	}
+	
+
+#nav  > ul > li > a {
+    background-color: #F2F5A9;
+    color: #4E004E;
+    padding: 5px 10px;
+ 	text-decoration:none;
+	font-weight:bold;
+	border-right: solid #5A246D 15px;
+}
+
+ 
+ 
+a {
+	 color: #4E004E;;
+}
+
+a:hover {
+	color: #FF0066;
+	text-transform: uppercase;
+	}
+ 
+span{
+	font-weight: bold;
+	font-size:20px;
+	color: #009900;
+}
+
+#mainbar{
+	position: relative;
+	clear: right;
+	width:100%;
+	float: right;background: #660000;
+		
+}	
+
+#mainbar  section{
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:10px;
+	padding-right:10px;
+}	
+.mainimg{
+	width:50%; 
+	height:100%;
+	float: left;
+	
+} 
+
+#mainbar  h2{
+	font-size:25px;
+	font-weight: bold;
+	font-style:italic;
+	color:#333333;
+	text-align: center;
+	padding-left:10px;
+}	
+ 
+
+#mainbar  p{
+	font-size:20px;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top:50px;
+	padding-left:10px;
+	padding-right:10px;
+	line-height: 2.25em;
+}	
+
+
+.centerimg{
+	width:50%; 
+	height:50%;
+	float: none;
+	
+} 	
+ 
+#header{
+	 	height: 9em;
+		position: relative;
+		background:#4C0000;
+}
+ 
+ 
+#header h1{
+	text-align: center; 
+	padding-top:15px;
+	color: #009900;
+	font: 36px  Georgia, Arial, sans-serif;
+	font-weight: bold;
+} 
+
+
+#header p{
+	text-align: center; 
+	color: #FFCCCC;
+	font: 22px  Georgia, Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: lowercase;
+} 
+
+#logo {
+position: relative;
+	height:5em;
+	padding-bottom:8px;
+	background: #2E8B57;
+} 
+#logo img{
+	height:100%;
+	float: left;
+} 
+ 
+#navigation
+	{
+		position: relative;
+		background: #8F0000;
+		height: 1.75em;
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+#navigation > ul > li
+		{
+			display: inline-block;
+		}
+		#navigation > ul > li > a
+		{
+			display: inline-block;
+			padding: 0.80em 1.5em;
+			letter-spacing: 0.06em;
+			text-decoration: none;
+			font-size: 1em;
+			color: #A3FF85;
+			outline: 0;
+		}
+		#navigation > ul > li > a:hover {
+			color: #6600CC;
+		}
+		
+		#navigation li.active a
+		{
+			background: #db3b5d;
+			border-radius: 10px;
+			color: #FFF;
+		}
+
+ table{
+	background-color: #CC9933;
+	margin-top: 20px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-collapse: collapse;
+}
+ 
+table.maintable th {
+	background-color: #003366;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+table.maintable td {
+	background-color: #CC9933;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid #FFFFFF;
+}
+ 
+caption{
+	background-color: #F0F0F0;
+	color: #A4A400;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	padding: 5px;
+	text-align: center;
+	font-weight:bold;
+	font-family: sans-serif;
+}
+
+
+strong{
+font-weight:bold;
+}
+
+.divider{
+padding-bottom:10px;
+padding-top: 10px;
+}
+#footer {
+position: relative;
+	background : #4C0000;
+	clear: both;
+}	
+
+
+#footer p{
+	color: #FF9999;
+	text-align: center;
+	 padding-top: 15px;
+	 padding-bottom: 10px;
+}
+
+/* independence day */
+
+.coupon_holder{
+	float: relative;
+	margin-left: 23%;
+	width:600px;
+	height:450px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #FFF;
+	border: 3px dashed #0000FF;    border-radius: 20px;
+	line-height: 2em;
+	background-image: url('../images/bg2.jpg');
+	padding-top:20px;
+	
+}
+.coupon_title{
+	text-shadow: .05em .05em .05em #333333;
+	position: relative;
+	font-size: 4.5em;
+	line-height: 1em;
+	font-weight: bolder;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #E61937;
+	text-align:center;
+
+}
+
+.divider{
+	position: relative;
+	padding-top: 2px;
+	background-color: #E61937;
+	width: 100%;
+	border-bottom-style: double;
+	height: 10px;
+}
+
+
+.leftimg{
+	text-shadow: .05em .05em .05em #000000;
+	padding-left: 20px;
+	font-size: 8em;
+	line-height: 1em;
+	color: #0000FF;
+	padding-top: 10px; 
+	
+}
+
+
+
+.rightimg{
+	text-shadow: .05em .05em .05em #000000;
+	padding-left: 8px;
+	font-size: 8em;
+	line-height: 1em;
+	color: #0000FF;
+	padding-top: 10px; 
+	float:right;
+}
+.discount{
+	text-shadow: .05em .05em .05em #000000;
+	position: relative;
+	padding-top:10px;
+	padding-left:10%;
+	font-size: 8em;
+	line-height: 0.75em;
+	color: #0000FF;
+	float:left;
+}
+.discount_top{
+	position: auto;
+	padding-top: 2px;
+	font-size: 0.5em;
+	line-height: 0.75em;
+	float:right;
+	
+}
+
+.discount_bottom{
+	position: relative;
+	padding-top: 50px;
+	font-size: 0.5em;
+	line-height: 0.75em;
+	padding-left: 5px;
+	float:right;
+}
+
+
+.description{
+	font-style: italic;
+	color: #E61937;
+	font-weight: bold;
+	text-align:center;
+	
+}
+
+
+.offer{
+	font-style: italic;
+	color: #E61937;
+	font-weight: bold;
+	text-align:right;
+	
+}
