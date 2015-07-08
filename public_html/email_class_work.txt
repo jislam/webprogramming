@@ -1,0 +1,6 @@
+email: louis.henrygsu@gmail.com
+the url of the class work
+In class 2.
+no java script
+
+put in an array in php and check if its uppercase, validate in server side. 11.59 today.

@@ -1,0 +1,626 @@
+/* css for layout */
+
+ul.points
+{
+	 margin:10px 0 0 15px; float:left; font-size:16px;
+	 list-style-image: url('./p2.gif');
+	
+}
+.titles{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	text-align: center;
+	letter-spacing: 0.05em;
+} 
+
+.special{
+	color: #4E004E;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.item{
+	color: #db3b5d;
+	font-weight: bold;
+	
+}
+.picture{
+	float: left;
+} 
+
+.clear{
+	clear: both;
+}
+.pic{
+	width:35%; 
+	height:40%;
+	float: left;
+	padding-top:15px;
+}
+
+.bar{
+	float:left; 
+	background-color:#d3e283; 
+	width:29%;
+}
+
+#nav  ul{
+    margin-left: 15px;
+}
+
+#nav  > ul > li{
+    display: inline;
+	
+	}
+	
+
+#nav  > ul > li > a {
+    background-color: #F2F5A9;
+    color: #4E004E;
+    padding: 5px 10px;
+ 	text-decoration:none;
+	font-weight:bold;
+	border-right: solid #5A246D 15px;
+}
+
+ 
+ 
+a {
+	 color: #4E004E;;
+}
+
+a:hover {
+	color: #FF0066;
+	}
+ 
+span{
+	font-weight: bold;
+	font-size:20px;
+	color: #009900;
+}
+
+#mainbar{
+	position: relative;
+	clear: right;
+	width:100%;
+	float: right;background: #660000;
+		
+}	
+
+#mainbar  section{
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:10px;
+	padding-right:10px;
+}	
+.mainimg{
+	width:50%; 
+	height:100%;
+	float: left;
+	
+} 
+
+#mainbar  h2{
+	font-size:25px;
+	font-weight: bold;
+	font-style:italic;
+	color:#333333;
+	text-align: center;
+	padding-left:10px;
+}	
+ 
+
+#mainbar  p{
+	font-size:20px;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top:50px;
+	padding-left:10px;
+	padding-right:10px;
+	line-height: 2.25em;
+}	
+
+
+.centerimg{
+	width:50%; 
+	height:50%;
+	float: none;
+	
+} 	
+ 
+#header{
+	 	height: 9em;
+		position: relative;
+		background:#4C0000;
+}
+ 
+ 
+#header h1{
+	text-align: center; 
+	padding-top:15px;
+	color: #009900;
+	font: 36px  Georgia, Arial, sans-serif;
+	font-weight: bold;
+} 
+
+
+#header p{
+	text-align: center; 
+	color: #FFCCCC;
+	font: 22px  Georgia, Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: lowercase;
+} 
+
+#logo {
+position: relative;
+	height:5em;
+	padding-bottom:8px;
+	background: #2E8B57;
+} 
+#logo img{
+	height:100%;
+	float: left;
+} 
+ 
+#navigation
+	{
+		position: relative;
+		background: #8F0000;
+		height: 50px;
+		padding-top: 10px;
+		padding-bottom: 40px;
+	}
+#navigation > ul > li
+		{
+			display: inline-block;
+		}
+		#navigation > ul > li > a
+		{
+			display: inline-block;
+			padding: 10px 10px;
+			letter-spacing: 1px;
+			text-decoration: none;
+			font-size: 14px;
+			color: #A3FF85;
+			outline: 0;
+		}
+		#navigation > ul > li > a:hover {
+			color: #6600CC;
+		}
+		
+		#navigation li.active a
+		{
+			background: #db3b5d;
+			border-radius: 10px;
+			color: #FFF;
+		}
+
+ table{
+	background-color: #CC9933;
+	margin-top: 20px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-collapse: collapse;
+}
+ 
+table.maintable th {
+	background-color: #003366;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+table.maintable td {
+	background-color: #CC9933;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid #FFFFFF;
+}
+ 
+caption{
+	background-color: #F0F0F0;
+	color: #A4A400;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	padding: 5px;
+	text-align: center;
+	font-weight:bold;
+	font-family: sans-serif;
+}
+
+
+strong{
+font-weight:bold;
+}
+
+.divider{
+padding-bottom:10px;
+padding-top: 10px;
+}
+#footer {
+position: relative;
+	background : #4C0000;
+	clear: both;
+}	
+
+
+#footer p{
+	color: #FF9999;
+	text-align: center;
+	 padding-top: 15px;
+	 padding-bottom: 10px;
+}
+
+/* independence day */
+
+.coupon_holder{
+	float: relative;
+	margin-left: 23%;
+	width:600px;
+	height:450px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #FFF;
+	border: 3px dashed #0000FF;    border-radius: 20px;
+	line-height: 2em;
+	background-image: url('../images/bg2.jpg');
+	padding-top:20px;
+	
+}
+.coupon_title{
+	text-shadow: .05em .05em .05em #333333;
+	position: relative;
+	font-size: 4.5em;
+	line-height: 1em;
+	font-weight: bolder;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #E61937;
+	text-align:center;
+
+}
+
+.divider{
+	position: relative;
+	padding-top: 2px;
+	background-color: #E61937;
+	width: 100%;
+	border-bottom-style: double;
+	height: 10px;
+}
+.leftimg{
+	text-shadow: .05em .05em .05em #000000;
+	padding-left: 20px;
+	font-size: 8em;
+	line-height: 1em;
+	color: #0000FF;
+	padding-top: 10px; 
+	
+}
+
+.rightimg{
+	text-shadow: .05em .05em .05em #000000;
+	padding-left: 8px;
+	font-size: 8em;
+	line-height: 1em;
+	color: #0000FF;
+	padding-top: 10px; 
+	float:right;
+}
+.discount{
+	text-shadow: .05em .05em .05em #000000;
+	position: relative;
+	padding-top:10px;
+	padding-left:10%;
+	font-size: 8em;
+	line-height: 0.75em;
+	color: #0000FF;
+	float:left;
+}
+.discount_top{
+	position: auto;
+	padding-top: 2px;
+	font-size: 0.5em;
+	line-height: 0.75em;
+	float:right;
+	
+}
+.discount_bottom{
+	position: relative;
+	padding-top: 50px;
+	font-size: 0.5em;
+	line-height: 0.75em;
+	padding-left: 5px;
+	float:right;
+}
+.description{
+	font-style: italic;
+	color: #E61937;
+	font-weight: bold;
+	text-align:center;
+	
+}
+.offer{
+	font-style: italic;
+	color: #E61937;
+	font-weight: bold;
+	text-align:right;
+	
+}
+/* movie ticket layout */
+
+.dining_coupon_border{
+	margin-left: 23%;
+	width:600px;
+	height:350px;
+	border: 10px solid #FFFFFF; 
+	background-color: #FFFFFF;
+}
+
+.dining_coupon_holder{
+	display: inline-block;
+	width:inherit;
+	height:inherit;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	border: 2px dashed #000000; 
+	background-color: #F0E6FA;
+}
+
+.dining_content{
+	display: inline-block;
+	width:inherit;
+	height:340px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	background-color: #F0E6FA;
+}
+
+.dining_content_left{
+	display: inline-block;
+	width:55%;
+	height:340px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	background-color: #FFFFFF;
+}
+
+.leftp{
+	
+	font-size: 0.75em;
+	font-family: 'Verdana';
+	color: #330066;
+	float:right;
+	padding-top: 30px;
+	padding-right: 10px;
+	font-style:italic;
+	
+}
+.dining_content_right{
+	display: inline-block;
+	width:45%;
+	height:340px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	background-image: url('../images/burger.jpg');
+	float:right;
+}
+.dining_left_text {
+    font-size: 5em;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    text-align: center;
+	color: #990066;
+	line-height: 1.05em;
+     
+    /*text stroke*/
+    -webkit-text-stroke: 2px #fff473;
+}
+.dining_left_text span {
+     font-size: 0.75em;
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+    text-align: center;
+	color: #FF6600;
+	line-height: 0.85em;
+    /*text stroke*/
+    -webkit-text-stroke: 3px #fff473;
+}
+
+
+.dining_blocktext{
+  font-size: 0.75em;
+  font-family: 'Verdana', serif;
+  font-weight: normal;
+	color: #0099CC;
+	line-height: 1.05em;
+	text-transform: sentencecase;
+	background-color: #FFCCCC;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+
+.sandwich_content{
+	display: inline-block;
+	width:inherit;
+	height:250px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	background-color: #F0E6FA;
+}
+.rightp{
+	font-size: 0.65em;
+	font-family: 'Verdana';
+	color: #330066;
+	float:right;
+	padding-top: 20px;
+	font-style:italic;
+}
+.rightsandwichimg{
+	padding-top: 15px; 
+	float:right;
+}
+.sandwich_content_right{
+	display: inline-block;
+	width:47%;
+	height:250px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	background-color: #FFFFFF;
+}
+.sandwich_content_left{
+	display: inline-block;
+	width:53%;
+	height:250px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	background-image: url('../images/sandwich.jpg');
+	float:left;
+}
+.sandwich_right_text {
+    font-size: 5em;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    text-align: center;
+	color: #FF00CC;
+	line-height: 1.05em;
+     
+    /*text stroke
+    -webkit-text-stroke: 2px #fff473;*/
+	-webkit-text-stroke: 1px black;
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+.sandwich_right_text span {
+    font-size: 0.50em;
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+    text-align: center;
+	color: #33CC00;
+	line-height: 0.95em;
+    /*text stroke*/
+    -webkit-text-stroke: 3px #fff473;
+}
+.sandwich_blocktext{
+  font-size: 0.75em;
+  font-family: 'Verdana', serif;
+  font-weight: normal;
+	color: #660000;
+	line-height: 1.05em;
+	text-transform: sentencecase;
+	background-color: #FFFF99;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+.sandwich_bottomtext{
+  font-size: 0.75em;
+  font-family: 'Verdana', serif;
+  font-weight: normal;
+	color: #330000;
+	line-height: 1.05em;
+	text-transform: uppercase;
+	background-color: #9966CC;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	text-align: center;
+    font-weight: bold;
+}
+/* movie ticket layout */
+
+.movie_coupon_border{
+	margin-left: 23%;
+	width:600px;
+	height:350px;
+	border: 10px solid #FFFFFF; 
+	background-color: #FFFFFF;
+}
+
+.movie_coupon_holder{
+	display: inline-block;
+	width:inherit;
+	height:inherit;
+	font-size: 16px;
+	font-family: Arial;
+	color: #000;
+	border: 2px dotted #000000; 
+	background-color: #F0E6FA;
+}
+
+.leftmoviebar {
+ 	background-color: #D1B2F0;
+	height:37%;
+	width:inherit;
+	color: #000;
+	
+}
+
+
+.bottommoviebar {
+ 	background-color: #D1B2F0;
+	height:37%;
+	width:inherit;
+	color: #000;
+	background-image: url('../images/movie3.jpg')
+}
+ 
+
+.leftmovieimg{
+	padding-left: 5px;
+	color: #0000FF;
+	padding-top: 5px; 
+	
+}
+
+.rightmovieimg{
+	padding-left: 5px;
+	padding-top: 15px; 
+	padding-right: 10px;
+	float:right;
+	
+}
+
+.desc{
+	font-size:25px;
+	color:#6600CC;
+	text-align: center;
+	padding-top:50px;
+	padding-left:10px;
+	padding-right:10px;
+	line-height: 0.75em;
+	text-shadow: .05em .05em .05em #000000;
+
+}	
+
+.leftmoviebar span{
+	font-size: 1.5em;
+	line-height: 1.75em;
+	padding-left: 5px;
+	float:right;
+}
+/* independence day */

@@ -3,7 +3,7 @@ body{
 	font-family: Arial, Georgia, sans-serif;
 	font-size: 12pt;
 	line-height: 1.25em;
-	background-image: url('./bg.png');
+	background-image: url('../images/bg.png');
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-top: 2%;
@@ -47,7 +47,7 @@ span{
 
 #leftbar{
 	background-color: #F8EFCF;
-	background-image: url('./bg.png');
+	background-image: url('../images/bg.png');
 	width:65%; 
 	height: 100%;
 	float: left;
@@ -76,7 +76,7 @@ span{
 	clear: right;
 	width:35%;
 	float: right;
-	background-image: url('./rightbg.jpg');
+	background-image: url('../images/rightbg.jpg');
 }	
 
 #rightbar section{
@@ -121,15 +121,23 @@ span{
 	width:90%;
 	text-align: center;
 	padding-bottom:18px;
+
 }
 
 #rightbar  table.zebrastrip tr:nth-of-type(odd) {
 	
-	background-color: #484848;
+	background-color: #70DBFF;
 }
 #rightbar  table.zebrastrip tr:nth-of-type(even) {
 	
-	background-color: #F8F8F8;
+	background-color: #FFFFCC;
+}
+.tableheader{
+	text-align: left;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	background-color:#00FF99;
 }
 
   

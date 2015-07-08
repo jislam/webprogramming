@@ -1,0 +1,89 @@
+/* css for layout */
+body{
+	background-repeat: repeat;
+	font-family: Arial, Georgia, sans-serif;
+	font-size: 12pt;
+	line-height: 1.25em;
+	background-image: url('../images/bg.jpg');
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 8%;
+	margin-bottom: auto;
+	height: 100%;
+}
+h1{
+text-align:center;
+}
+label
+{
+	width: auto;
+	float: left;
+	text-align: left;
+	display: block;
+}
+
+input
+{
+	color: #781351;
+	background: #D6FFD6;
+	border: 1px solid #781351;
+	float:none;
+}
+
+.submit input
+{
+	color: #000;
+	background: #D6FFD6;
+	border: 2px outset #993333;
+}
+
+fieldset
+{
+	border: 5px solid #4C001F;
+	width: 450px;
+	float:none;
+	margin-left: 30%;
+	margin-right: 30%;
+	
+}
+
+legend
+{
+	color: #751947;
+	background: #4DDBFF;
+	border: 1px dashed #800033;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:20%;
+	margin-right:20%;
+	font-size: 14px;
+	font-weight:bold;
+} 
+.error
+{
+display:block;
+color:#f00;
+}
+
+.display
+{
+	color: #751947;
+	background: #D6FFD6;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 14px;
+	font-weight:bold;
+	border: 5px solid #4C001F;
+	width: 450px;
+	float:none;
+	margin-left: 30%;
+	margin-right: 30%;
+} 
+
+.display span{
+	color: #000;
+}

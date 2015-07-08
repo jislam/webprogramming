@@ -1,0 +1,83 @@
+/* css for layout */
+body{
+	background-repeat: repeat;
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 12pt;
+	line-height: 0.83em;
+	background-image: url('./assignment3/images/bg.jpg');
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+h1{
+	text-align:center;
+	text-transform: capitalize;
+	font-size: 25px;
+	color:#751947; 
+	padding-top:5px;
+	padding-bottom: 5px;
+	font: Arial;
+	color:#800033; 
+}
+h2
+{
+	font:14pt verdana;
+	padding-left:10px;
+	padding-bottom:10px;
+	text-align: center;
+}
+
+table.zebrastrip{
+	border-collapse:collapse;
+	border:5px solid black;
+	margin:5px 10px 10px;
+	width: 700px;
+}
+table.zebrastrip tr:nth-of-type(odd) {
+	
+	background-color:#B8E68A;
+	height: 40px;
+}
+table.zebrastrip tr:nth-of-type(even) {
+	
+	background-color:#E0FFC2;
+	height:40px;
+	height: 40px;
+}
+table.zebrastrip th
+{
+	text-align:center;
+	width:60px;
+	Border: 2px solid black;
+	background-color:#99FFCC;
+	font-size: 18px;
+}
+
+table.zebrastrip td
+{
+	text-align:right;
+	width:60px;
+	Border-right: 1px solid black;
+	padding-right: 10px;
+}
+.container
+{
+	background-color:#E0FFFF;
+	border:5px solid #000;
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	margin:20px auto;
+	padding:0;
+	width:760px;
+	height:740px;
+	padding-left:20px;
+}
+
+.back{
+	display:block;
+	float:none;
+	font-size: 16pt;
+	line-height: 1.83em;
+	
+}

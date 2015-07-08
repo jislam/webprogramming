@@ -1,0 +1,70 @@
+.list{
+	text-align: justify;
+	font-family: Arial;
+}
+
+.title{
+	padding-left:8px;
+	font-weight: bold;
+	margin-left:20px;
+}
+.dataform{
+	text-align: justify;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight:bold;
+	color: #000000;
+	width: 75%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+	padding-left:8px;
+	padding-right:10px;
+	padding-top:20px;
+	padding-bottom:10px;
+	background-color: #FFFFFF;
+	background-image: url('../images/iqbg.jpg');
+}
+
+.dataform h6{
+	text-align: center;
+	padding-left:8px;
+	padding-right:10px;
+	padding-top:20px;
+	font-size: 24px;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+ 
+.iqcoupon{
+	height:"350px";
+	width:"500px";
+	border: 2px dashed #000000;
+}
+
+.iqnormal{
+	height:"350px";
+	width:"500px";
+}
+
+.iqresult{
+	font-size:25px;
+	color:#FFE0FF;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:10px;
+	padding-right:10px;
+	line-height: 0.75em;
+	text-shadow: .05em .05em .05em #000000;
+
+}	
+
+ 
+ul.generic
+{
+	font-size:16px;
+	 list-style-type: none;} 
