@@ -1,0 +1,45 @@
+
+.style_link{
+	color: #000000;
+	font-weight: bold;
+}
+a:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+
+.style1 {
+	color: #660000;
+	font-weight: bold;
+}
+.style2 {font-family: Arial, Helvetica, sans-serif}
+.style3 {color: #660000; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+.style4 {
+	color: #FF00FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+.style5 {color: #006699}
+.style7 {color: #333300}
+.style8{color: #FF0000; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.style8 {color: #FF0000}
+
+.errorMessage {
+	color: #FF0000;
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+		background-color: #FF0000;
+}

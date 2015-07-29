@@ -1,0 +1,137 @@
+#leftnav {
+	width: 150px;
+	font-size: 12px;
+	vertical-align: top;
+	font-size: 85%;
+	padding-right:5px;
+	padding-top:5px;
+}
+#leftnav ul {
+	margin: 0;
+	padding: 0;
+	width: 170px; /* Main Menu Item widths */
+	list-style-type: none;
+	font: bold 12px Verdana;
+
+	border-bottom: 1px solid #262118;
+}
+
+#leftnav li {
+	/*/*/margin: 0px 0px 6px 0px; /* */	
+}
+ 
+
+#leftnav a {
+	/*/*/padding: 3px; 
+	display: block;
+	border: 1px dotted #CCC;
+	text-decoration: none;
+	line-height: 1em;
+	width: 180px /* */
+}
+
+#leftnav a:link, #leftnav a:visited {
+	background: #2F2B22; /*background of menu items (default state)*/
+	color: white;
+}
+#leftnav a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	background: black; 
+	color: white;
+}
+#leftnav a:hover, #leftnav a:active {
+	color: #FFFFFF;
+	background-color: #6699CC;
+	border: 1px solid #000;
+}
+
+
+#leftnav ul li ul{
+position: absolute;
+width: 170px; /*Sub Menu Items width */
+top: 0;
+font-weight: normal;
+visibility: hidden;
+}
+
+
+#current a {
+	color: #FFFFFF !important;
+	/*/*/background-color: #999999 !important;
+	border: 2px dotted #999 !important; /* */
+}
+
+#minicart {
+	font-size: 10px;	
+}
+
+.entryTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #DDDDDD;
+}
+
+.entryTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.entryTable .label {
+	background-color: #EFEFEF;
+}
+
+.entryTable .content {
+	background-color: #FFFFFF;
+}
+
+
+.infoTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #DDDDDD;
+}
+
+.infoTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.infoTable .label {
+	background-color: #EFEFEF;
+}
+
+.infoTable .content {
+	background-color: #FFFFFF;
+}
+
+.box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #336699;
+}
+
+.notice {
+	color: #996600;
+	font-weight: bold;
+}
+
+.addToCartButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#333333;
+	font-weight:bold;
+	border: 1px solid #336699;
+	background-color:#FFCC00;
+}
+
+#errorMessage {
+	color: #990000;
+	font-weight: bold;
+}

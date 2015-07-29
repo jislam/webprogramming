@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - sweetlites@localhost" uuid="99c85ef4-cf30-4095-82f5-28d8d90c384b">
+    <database-info product="MySQL" version="5.6.25" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="sweetlites"/>
+    <table name="admin" schema="" catalog="sweetlites" type="TABLE">
+      <column name="admin_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="admin_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="admin_pass" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="admin_last_login" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="admin_id"/>
+    </table>
+    <table name="attribute" schema="" catalog="sweetlites" type="TABLE">
+      <column name="attribute_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prod_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="attribute_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="attribute_value" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+    </table>
+    <table name="cart" schema="" catalog="sweetlites" type="TABLE">
+      <column name="cart_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prod_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prod_qty" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="cart_session_id" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <column name="cart_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="total_discount" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <column name="total_price" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <primary-key name="PRIMARY" columns="cart_id"/>
+    </table>
+    <table name="discount" schema="" catalog="sweetlites" type="TABLE">
+      <column name="discount_info_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="discount_code" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="discount_type" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="discount_amount" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <column name="creation_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="expiration_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+    </table>
+    <table name="image" schema="" catalog="sweetlites" type="TABLE">
+      <column name="image_info_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="prod_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="image_1" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="image_2" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="image_3" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="image4" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="image_info_id"/>
+    </table>
+    <table name="price" schema="" catalog="sweetlites" type="TABLE">
+      <column name="price_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MTAx"/>
+      <column name="price_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="convert_doller" sqlType="DOUBLE" precision="10" scale="2" nullable="false" jdbcType="8"/>
+      <column name="convert_rupee" sqlType="DOUBLE" precision="10" scale="2" nullable="false" jdbcType="8"/>
+      <primary-key name="PRIMARY" columns="price_id"/>
+    </table>
+    <table name="product" schema="" catalog="sweetlites" type="TABLE">
+      <column name="prod_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="cat_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prod_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prod_intro_text" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="prod_type" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prod_weight" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prod_sepical_offer" sqlType="ENUM" precision="4" scale="0" nullable="false" jdbcType="1"/>
+      <column name="prod_desc" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="prod_price_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prod_price" sqlType="DOUBLE" precision="10" scale="2" nullable="false" jdbcType="8"/>
+      <column name="prod_publish" sqlType="CHAR" precision="1" scale="0" nullable="false" jdbcType="1"/>
+      <column name="prod_qty" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prod_discount_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="prod_coupon" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="shipping_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="warranty_years" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="warranty_text" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="prod_cdate" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="prod_mdate" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="prod_image" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prod_thumbnail" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="prod_id"/>
+    </table>
+    <table name="shipping" schema="" catalog="sweetlites" type="TABLE">
+      <column name="ship_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ship_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="ship_rate" sqlType="DOUBLE" precision="10" scale="2" nullable="false" jdbcType="8"/>
+      <primary-key name="PRIMARY" columns="ship_id"/>
+    </table>
+    <table name="shop_info" schema="" catalog="sweetlites" type="TABLE">
+      <column name="shop_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="shop_address" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="shop_phone" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="shop_email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="shop_currency" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="shop_owner" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="shop_order_email" sqlType="CHAR" precision="1" scale="0" nullable="false" jdbcType="1"/>
+    </table>
+    <table name="tbl_category" schema="" catalog="sweetlites" type="TABLE">
+      <column name="cat_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="cat_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="cat_desc" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="parent_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="cat_image" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="cat_publish" sqlType="CHAR" precision="1" scale="0" nullable="false" jdbcType="1"/>
+      <column name="create_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="modified_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="cat_id"/>
+    </table>
+    <table name="user" schema="" catalog="sweetlites" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_pass" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="first_address" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="second_address" sqlType="TEXT" precision="65535" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="customer_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="company" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="date_of_birth" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="user_phone" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_phone2" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="fax" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="state" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="zipcode" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="country" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="active" sqlType="VARCHAR" precision="1" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+    </table>
+  </data-source>
+</component>
